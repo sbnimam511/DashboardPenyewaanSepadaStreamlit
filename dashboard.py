@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 import statsmodels.formula.api as sm 
-from babel.numbers import format_currency
 sns.set(style='dark')
 
 # Load dataset yang sudah diproses dan disimpan sebelumnya
