@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 import statsmodels.formula.api as sm 
-sns.set(style='dark')
 
+sns.set(style='dark')
 # Load dataset yang sudah diproses dan disimpan sebelumnya
 all_data = pd.read_csv("all_data.csv") 
 
